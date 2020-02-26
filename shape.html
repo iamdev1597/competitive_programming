@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  Zooming process
+</title>
+</head>
+
+<body>
+<center>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>
+    Zooming process
+  </title>
+  </head>
+
+  <body>
+  <center>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>
+      Zooming process
+    </title>
+    </head>
+
+    <body>
+    <center>
+    
+        <canvas id="myCanvas"
+        width="500"
+        height="300">
+    </canvas>
+    <script>
+            var x =
+                document.getElementById("myCanvas");
+            var contex =
+                x.getContext("2d");
+            contex.strokeRect(75, 145, 150, 100);
+            contex.translate(160, 60);
+            contex.scale(2, 2);
+            contex.translate(-160, -60);
+            contex.strokeRect(80, 80, 150, 100);
+    </script>
+    <center>
+    </body>
+    </html>
